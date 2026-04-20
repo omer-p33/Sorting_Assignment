@@ -50,7 +50,7 @@ All algorithms clearly exhibit the average runtime complexity we expect them to!
 This experiment tests the same algorithms on nearly sorted arrays where 5% / 20% of the elements are randomly shuffled.
 
 **Observations:**
-- **Bubble Sort** maintains a general O(n²) behavior but displays a improvement as a larger portions of the array are sorted.
+- **Bubble Sort** maintains a general O(n²) behavior but displays improvement as a larger portions of the array are sorted.
 - **Merge Sort** remains unchanged, as it always divides and merges regardless of input order. Its time complexity is strictly O(nlogn) in all cases.
 - **Quick Sort** performs only slightly better to the random case. Standard Quick Sort can degrade to O(n²) on already sorted arrays depending on pivot selection but choosing the middle element as the pivot (as implemented here)
 prevents this degradation on nearly sorted data, maintaining its efficient O(nlogn) average-case performance.
@@ -64,5 +64,5 @@ The data confirms that even with partially sorted input, the algorithmic complex
 This assignment demonstrates that algorithmic complexity is far more important than implementation details when dealing with large datasets. The O(n log n) algorithms significantly outperform O(n²) algorithms, with the performance gap increasing dramatically with array size. Even though Bubble Sort is simpler to implement, the practical advantages of using divide and conquer algorithms like Merge Sort or Quick Sort are undeniable.
 
 // The added tables include numerical data that aided us in perceiving the runtime comparisons between algorithms since the O(nlogn) have a barely
-noticeable difference (if any)
+noticeable difference (if any).
 
