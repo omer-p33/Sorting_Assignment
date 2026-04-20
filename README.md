@@ -1,8 +1,8 @@
 # Data Structures: Assignment 1 - Sorting Algorithm Comparison
 
 ## Student Names
-- Omer Pimontel 322570706
-- Ori Gurwicz 206535346
+- Omer Pimontel
+- Ori Gurwicz
 
 ## Selected Algorithms
 1. Bubble Sort
