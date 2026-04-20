@@ -9,7 +9,7 @@
 2. Merge Sort
 3. Quick Sort
 
-![sorting_table](Sorting_table.png)
+![sorting_table](subfolder/Sorting_table.png)
 
 ## Experiment Results
 
@@ -17,7 +17,7 @@
 
 ![result1](result1.png)
 
-![result1_table](result1_table.png)
+![result1_table](subfolder/result1_table.png)
 
 This experiment compares the three sorting algorithms on randomly shuffled arrays of increasing size.
 
@@ -38,13 +38,13 @@ All algorithms clearly exhibit the average runtime complexity we expect them to!
 
 ![result2](result2.png)
 
-![result2_table](result2_table.png)
+![result2_table](subfolder/result2_table.png)
 
 ### 20% :
 
-![result2](result3.png)
+![result2](subfolder/result3.png)
 
-![result2_table](result3_table.png)
+![result2_table](subfolder/result3_table.png)
 
 
 This experiment tests the same algorithms on nearly sorted arrays where 5% / 20% of the elements are randomly shuffled.
