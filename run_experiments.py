@@ -151,8 +151,8 @@ def plot_results(results, sizes, algo_ids, title, filename):
 
     print(f"Plot saved to {filename}")
 
-def export_table_png(results, sizes, algo_ids, title, filename):
-    """Export results as a formatted table image (PNG)."""
+"""def export_table_png(results, sizes, algo_ids, title, filename):
+    #Export results as a formatted table image (PNG)
     # Prepare data for the table
     cell_text = []
     row_labels = []
@@ -171,7 +171,6 @@ def export_table_png(results, sizes, algo_ids, title, filename):
     # Create figure and axis (dynamically adjust size based on columns/rows)
     fig, ax = plt.subplots(figsize=(max(8, len(sizes) * 1.5), len(algo_ids) * 0.5 + 1.5))
 
-    # Hide the axes since it's a table, not a graph
     ax.axis('off')
     ax.axis('tight')
 
@@ -195,7 +194,7 @@ def export_table_png(results, sizes, algo_ids, title, filename):
     plt.savefig(filename, dpi=150, bbox_inches='tight')
     plt.close()
 
-    print(f"Table image saved to {filename}")
+    print(f"Table image saved to {filename}")"""
 
 
 def main():
